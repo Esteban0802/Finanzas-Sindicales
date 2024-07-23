@@ -1,0 +1,271 @@
+body {
+    background-color: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: poppins;
+    font-size: 1rem;
+    overflow-x: hidden;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+main {
+    background-image: url(./img/fondo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.banner{
+    width: 100%;
+}
+
+.cont-nosotros{
+    margin: auto;
+}
+
+.nosotros {
+    margin: auto;
+    width: 70%;
+}
+
+.navbar {
+    background-color: #003052;
+}
+
+.marca {
+    background-color: white;
+}
+
+.contenedor{
+    background-color: rgba(255, 255, 255, 0.553)
+}
+
+.card-service{
+    border-radius: 30px 30px 30px 30px;
+}
+
+.card-work{
+    border-radius: 70px 70px 0px 0px;
+}
+
+.work1{
+    background-color: #fa590a;
+}
+
+.work2{
+    background-color: #1cc7b0;
+}
+
+.work3{
+    background-color: #ffc200;
+}
+
+.service{
+    background-image: url(./img/Recurso-fondo\ naranjo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.pagina-web{
+    width: 60vh;
+    border-radius: 190px 190px 20px 20px;
+}
+
+.img-web{
+    width: 25vh;
+}
+
+.precio{
+    font-size: 0.7rem;
+}
+
+.valor{
+    font-size: 0.8rem;
+}
+
+.ofrecer{
+    color: #1cc7b0;
+}
+
+.card-title{
+    color: #fa590a;
+}
+
+.card-text-empresa {
+    font-size: .8rem;
+    text-align: justify;
+}
+
+.card-text-somos {
+    font-size: 1rem;
+    text-align: justify;
+}
+
+.card-text-equipo {
+    font-size: .8rem;
+    text-align: center;
+}
+
+.card-title-servicio {
+    font-size: 1rem;
+    text-align: justify;
+}
+
+.card-text-servicio {
+    font-size: .8rem;
+    
+}
+
+.card-plan{
+    width: 70%;
+}
+
+.img-equipo {
+    width: 60%;
+    border: solid 15px transparent;
+    border-radius: 15px;
+    background-image: linear-gradient(120deg, #3c7cf4, #ba4fda);
+    background-origin: border-box;
+}
+
+.comprar {
+    text-decoration: none;
+}
+
+.form-control {
+    font-size: .8rem;
+}
+
+
+.cont-contacto {
+    display: grid;
+    grid-template-columns: 100%;
+    justify-content: space-around;
+}
+
+.cont-contacto .form {
+    display: block;
+    max-width: 80%;
+    height: auto;
+    margin: 20px auto 20px auto;
+    padding: 0px 10px;
+}
+
+.cont-contacto .form input {
+    height: 30px;
+    width: 100%;
+    border: solid;
+    border-color: rgb(225, 225, 225);
+    background-color: rgb(255, 255, 255);
+}
+
+.cont-contacto .form textarea {
+    height: 100px;
+    width: 100%;
+    border: solid;
+    border-color: rgb(225, 225, 225);
+    background-color: rgb(255, 255, 255);
+}
+
+.cont-contacto .form .btn {
+    border-radius: 2px;
+    width: 80px;
+    color: white;
+    background-color: #fa590a;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+
+label {
+    color: black;
+}
+
+.logoA {
+    max-width: 40%;
+    text-align: center;
+}
+
+.parrafoLogo {
+    font-size: 1.5rem;
+    font-family: "Public Sans", sans-serif;
+    text-align: center;
+}
+
+.parrafoLogo1 {
+    font-size: 1rem;
+    font-family: "Public Sans", sans-serif;
+    text-align: center;
+}
+
+.footer{
+    background-image: url(./img/Recurso-fondo2.jpg);
+    background-size: cover;
+}
+
+
+
+
+
+/*Media Querys*/
+@media screen and (max-width: 767px){
+    .nuestro-equipo1{
+        width: 80%;
+        margin: auto;
+    }
+
+    .nuestra-empresa1{
+        width: 50%;
+        margin: auto;
+    }
+
+    .nuestro-servicio1{
+        width: 50%;
+        margin: auto;
+    }
+
+    main {
+        background-image: url(./img/4.png);
+        background-size: cover;
+        background-attachment: fixed;
+    }
+}
+
+
+
+
+@media screen and (max-width: 576px) {
+    .tarjeta{
+        width: 80%;
+    }
+
+    .nuestra-empresa1{
+        width: 80%;
+        margin: auto;
+    }
+
+    .empresa{
+        width: 80%;
+    }
+
+    .pagina-web{
+        width: 80%;
+    }
+
+    .nuestro-servicio1{
+        width: 80%;
+        margin: auto;
+    }
+    main {
+        background-image: url(./img/4.png);
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+}
