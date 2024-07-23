@@ -1,0 +1,50 @@
+<!--btn Whatsapp-->
+    <a href="https://api.whatsapp.com/send?phone=56938768838" class="btn-wsp" target="_blank"><img src="./img/Whatsapp_icon.png" alt="icon-wsp"></a>
+
+
+
+
+<!--CSS-->
+
+.btn-wsp{
+        position: fixed;
+        width: 60px;
+        height: 60px;
+        line-height: 55px;
+        bottom: 30px;
+        right: 30px;
+        background: #0df053;
+        color: #fff;
+        border-radius: 50px;
+        text-align: center;
+        font-size: 30px;
+        box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+        z-index: 100;
+    }
+
+
+
+
+
+
+
+
+<!--JS-->
+const exampleModal = document.getElementById('exampleModal')
+if (exampleModal) {
+exampleModal.addEventListener('show.bs.modal', event => {
+    // Button that triggered the modal
+    const button = event.relatedTarget
+    // Extract info from data-bs-* attributes
+    const recipient = button.getAttribute('data-bs-whatever')
+    // If necessary, you could initiate an Ajax request here
+    // and then do the updating in a callback.
+
+    // Update the modal's content.
+    const modalTitle = exampleModal.querySelector('.modal-title')
+    const modalBodyInput = exampleModal.querySelector('.modal-body input')
+
+    modalTitle.textContent = `New message to ${recipient}`
+    modalBodyInput.value = recipient
+})
+}
